@@ -17,10 +17,25 @@ console.log(r2);
  */
 
 // EXERCICI 3
-let x = 6;
+/* let x = 6;
 
 if (x < 5) console.log("Suspès");
 else if (x < 6) console.log("Suficient");
 else if (x < 7) console.log("Bé");
 else if (x < 9) console.log("Notable");
 else console.log("Excel·lent");
+ */
+
+// EXERCICI 4
+let x = 21;
+let m3 = (x % 3 === 0);
+let m7 = (x % 7 === 0);
+
+let op = (m3 ? 1 : 0) + (m7 ? 2 : 0);
+
+switch (op) {
+    case 1: console.log("Múltiple de 3"); break;
+    case 2: console.log("Múltiple de 7"); break;
+    case 3: console.log("Múltiple de 3 i 7"); break;
+    default: console.log("No és múltiple");
+}
