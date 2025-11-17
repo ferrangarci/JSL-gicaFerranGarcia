@@ -58,8 +58,7 @@ console.log(suma)
  */
 
 // EXERCICI 6
-
-let x = "j58kdj18fh2"
+/* let x = "j58kdj18fh2"
 let sumaDigits = 0;
 
 for (let c of x) {
@@ -68,3 +67,20 @@ for (let c of x) {
 }
 
 console.log(sumaDigits);
+ */
+
+// EXERCICI 7
+
+let a = 16, b = 65, c = 8;
+let max, min, mid;
+
+if (a >= b && a >= b) max = a;
+else if (b >= a && b >= c) max = b;
+else max = c;
+
+if (a <= b && a <= c) min = a;
+else if (b <= a && b <= c) min = b;
+else min = c;
+
+mid = (a + b + c) - max - min;
+console.log(max + " > " + mid + " > " + min)
