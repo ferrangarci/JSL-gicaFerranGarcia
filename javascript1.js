@@ -27,7 +27,7 @@ else console.log("Excel·lent");
  */
 
 // EXERCICI 4
-let x = 21;
+/* let x = 21;
 let m3 = (x % 3 === 0);
 let m7 = (x % 7 === 0);
 
@@ -39,3 +39,19 @@ switch (op) {
     case 3: console.log("Múltiple de 3 i 7"); break;
     default: console.log("No és múltiple");
 }
+ */
+
+// EXERCICI 5
+let suma = 0;
+let contador = "0";
+let n = 0;
+let x = 15;
+
+while (suma + (n + 1) <= x) {
+    n++;
+    suma += n;
+    contador += " + " + n
+}
+
+console.log(contador + " <= " + x);
+console.log(suma)
