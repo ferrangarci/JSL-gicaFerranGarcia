@@ -93,8 +93,20 @@ for (let b = 0; b <= a; b++) {
  */
 
 // EXERCICI 9
-let a = "";
+/* let a = "";
 for (let i = 0; i < 5; i++) {
     a += "* "
     console.log(a)
 }
+ */
+
+// EXERCICI 10
+let i = 0;
+let suma = 0;
+
+do {
+    if (i % 3 === 0 || i % 5 === 0) suma += i;
+    i++;
+} while (i <= 1000);
+
+console.log(suma);
