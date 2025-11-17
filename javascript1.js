@@ -113,7 +113,19 @@ console.log(suma);
  */
 
 // EXERCICI 11
-for (let i = 1; i <= 5; i++) {
+/* for (let i = 1; i <= 5; i++) {
     if (i % 2 === 0) continue;
     console.log("* ".repeat(i));
 }
+ */
+
+// EXERCICI 12
+let x = 123456
+let s = String(x);
+let resultat = "";
+
+for (let i = 0; i < s.length; i += 2) {
+    resultat += s[i + 1] + s[i];
+}
+
+console.log(resultat);
