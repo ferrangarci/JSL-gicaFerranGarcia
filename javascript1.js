@@ -70,8 +70,7 @@ console.log(sumaDigits);
  */
 
 // EXERCICI 7
-
-let a = 16, b = 65, c = 8;
+/* let a = 16, b = 65, c = 8;
 let max, min, mid;
 
 if (a >= b && a >= b) max = a;
@@ -84,3 +83,10 @@ else min = c;
 
 mid = (a + b + c) - max - min;
 console.log(max + " > " + mid + " > " + min)
+ */
+
+// EXERCICI 8
+let a = 9
+for (let b = 0; b <= a; b++) {
+    console.log(b + (b % 2 === 0 ? " es parell" : " es senar"))
+}
