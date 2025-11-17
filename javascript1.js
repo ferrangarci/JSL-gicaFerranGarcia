@@ -101,7 +101,7 @@ for (let i = 0; i < 5; i++) {
  */
 
 // EXERCICI 10
-let i = 0;
+/* let i = 0;
 let suma = 0;
 
 do {
@@ -110,3 +110,10 @@ do {
 } while (i <= 1000);
 
 console.log(suma);
+ */
+
+// EXERCICI 11
+for (let i = 1; i <= 5; i++) {
+    if (i % 2 === 0) continue;
+    console.log("* ".repeat(i));
+}
