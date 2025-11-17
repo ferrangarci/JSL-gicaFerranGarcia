@@ -86,7 +86,15 @@ console.log(max + " > " + mid + " > " + min)
  */
 
 // EXERCICI 8
-let a = 9
+/* let a = 9
 for (let b = 0; b <= a; b++) {
     console.log(b + (b % 2 === 0 ? " es parell" : " es senar"))
+}
+ */
+
+// EXERCICI 9
+let a = "";
+for (let i = 0; i < 5; i++) {
+    a += "* "
+    console.log(a)
 }
