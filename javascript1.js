@@ -42,7 +42,7 @@ switch (op) {
  */
 
 // EXERCICI 5
-let suma = 0;
+/* let suma = 0;
 let contador = "0";
 let n = 0;
 let x = 15;
@@ -55,3 +55,16 @@ while (suma + (n + 1) <= x) {
 
 console.log(contador + " <= " + x);
 console.log(suma)
+ */
+
+// EXERCICI 6
+
+let x = "j58kdj18fh2"
+let sumaDigits = 0;
+
+for (let c of x) {
+    if (!isNaN(c))
+        sumaDigits += Number(c);
+}
+
+console.log(sumaDigits);
